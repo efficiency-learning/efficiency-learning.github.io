@@ -5,67 +5,78 @@ permalink: /contact/
 toggle: on
 rank: 7
 ---
-<head>
-    <script>UPLOADCARE_PUBLIC_KEY = "9ece2f24515da2c6390d";</script>
-<script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
-</head>
+
+## Get in Touch
+
+We welcome collaborations and inquiries about our research and tools.
+
+### Principal Investigators
+
+**Prof. Ganesh Ramakrishnan**  
+Institute Chair Professor  
+Department of Computer Science and Engineering  
+IIT Bombay, Mumbai, India  
+Email: [ganesh@cse.iitb.ac.in](mailto:ganesh@cse.iitb.ac.in)  
+Website: [https://www.cse.iitb.ac.in/~ganesh/](https://www.cse.iitb.ac.in/~ganesh/)
+
+**Prof. Rishabh Iyer**  
+Assistant Professor  
+University of Texas at Dallas  
+Email: [rishabh.iyer@utdallas.edu](mailto:rishabh.iyer@utdallas.edu)  
+Website: [https://sites.google.com/view/rishabhiyer](https://sites.google.com/view/rishabhiyer)
+
+### Connect With Us
+
+- **GitHub:** [https://github.com/decile-team](https://github.com/decile-team)
+- **Medium:** [https://medium.com/@decile-research](https://medium.com/@decile-research)
+- **Twitter:** [https://twitter.com/decile_research](https://twitter.com/decile_research)
+- **YouTube:** [https://www.youtube.com/channel/UCbBsomFm7quu-7Es3X_Ps9g](https://www.youtube.com/channel/UCbBsomFm7quu-7Es3X_Ps9g)
+- **LinkedIn:** [https://www.linkedin.com/in/decile](https://www.linkedin.com/in/decile)
+
 ## Open Positions
-**Postdoctoral Fellow -- Integrative Genomic Analysis of Lymphoid Cancers**
 
-The Morin and Scott laboratories are seeking a Postdoctoral Fellow to take a leadership role in an ongoing effort to resolve the molecular aetiology of aggressive lymphoid cancers using genomic techniques. This individual will work closely with a team of bioinformaticians, biostatisticians and clinician-scientists in a highly productive and stimulating research environment at a world-class research facility in Vancouver, Canada.
+We are always looking for talented researchers and engineers to join our team. If you are interested in:
 
-The successful applicant will apply cutting-edge bioinformatic techniques to analyze hundreds of terabytes of high-throughput sequencing data produced from clinical cancer samples, namely RNA-seq (bulk/single cell), whole exome, whole genome, and circulating tumour DNA sequencing data. This position demands a strong background in bioinformatics, computational biology or data science. Detailed knowledge of cancer biology (particularly non-Hodgkin lymphomas) would be an asset.
+- **Data-efficient machine learning** and deep learning
+- **Submodular optimization** and combinatorial optimization
+- **Active learning** and data subset selection
+- **Large language models** and parameter-efficient fine-tuning
+- **Applications** in computer vision, NLP, and other domains
 
-Familiarity with algorithms for inferring clonal structure of tumours and network/pathway deregulation from sequence data is also desirable. Experience with machine learning, statistical modelling, survival analysis, and data visualization are all desirable. Characteristics of the ideal candidate include strong verbal and written communication skills, attention to detail, creativity, and the ability to remain organized in a fast-paced and dynamic environment. The successful candidate will thrive in our highly collaborative setting while also being able to drive projects independently.
+We encourage PhD students, postdoctoral researchers, and research engineers to reach out.
 
-The successful candidate will report to Drs. ​[Ryan Morin​](https://morinlab.github.io/team/) and [David Scott](https://www.bccrc.ca/dept/lcr/people/david-scott) and will be affiliated with [Canada's Michael Smith Genome Sciences Centre](https://www.bcgsc.ca/) at BC Cancer.
+### What We Look For
 
-*Duties will include some combination of the following:*
+- Strong background in machine learning, deep learning, or related fields
+- Proficiency in Python and deep learning frameworks (PyTorch, TensorFlow)
+- Experience with large-scale data processing and optimization
+- Strong publication record or potential
+- Excellent communication and collaboration skills
 
-- Deploy pipelines to detect somatic alterations such as CNAs, SNVs, indels and structural alterations/fusion transcripts
+### How to Apply
 
-- Perform clustering analyses on mutational and/or gene expression features to identify novel subgroupings
+Please send your CV, research statement, and representative publications to the appropriate PI listed above. For general inquiries, you can also reach out through our social media channels.
 
-- Develop machine learning models for the accurate identification of somatic mutations in heterogeneous and/or noisy tumour samples (*e.g.* FFPE, unpaired, ctDNA)
 
-- Identify *cis*-regulatory mutations using copy number, SV, and non-coding mutations
-
-- Quantify mutational signatures *de novo* or using reference signatures for simple somatic mutations and SVs
-
-- Model the effect of coding and non-coding mutations, respectively, on protein and RNA structure and function
-
-- Resolve clonal substructure and track tumour evolution using tissue biopsies and ctDNA
-
-- Identify gene expression or splicing features associated with clinical or genetic variables
-
-- Create bespoke visualizations of high-dimensional genomic datasets
-
-- Design and execute experiments and disseminate results through conference presentations and publications
-
-- Contribute to the writing of grant applications and training of junior lab members
-
-Suitable candidates should possess a PhD degree in bioinformatics, computer science, or molecular biology and must be competent in at least one programming language such as Python or R.
-
-Diversity is an integral part of Canadian history, culture, and identity. In the Morin laboratory, we strive to maintain an equitable and inclusive culture where all forms of diversity are seen as added value in the unifying goal of reducing the impact of cancer.
-
-*Applicants are requested to send a cover letter and CV to rdmorin@sfu.ca with LYMPHOMA-PDF in the subject line or using the form below*
-
+## Contact Form
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
-    <input type="email" name="email" placeholder="Enter your email"><br>
+  <input type="email" name="email" placeholder="Enter your email" required><br>
   First name:<br>
-  <input type="text" name="firstname"><br>
+  <input type="text" name="firstname" required><br>
   Last name:<br>
-  <input type="text" name="lastname">
+  <input type="text" name="lastname" required><br>
+  Affiliation:<br>
+  <input type="text" name="affiliation"><br>
   Interested in:<br>
-  <input type="radio" name="application goal" value="MSc"> MSc<br>
-  <input type="radio" name="application goal" value="PhD"> PhD<br>
-  <input type="radio" name="application goal" value="Postdoctoral"> Postdoctoral fellow<br>
-  <input type="radio" name="application goal" value="Work"> Employment <br>
-  <input type="radio" name="application goal" value="Volunteer"> Volunteer
+  <input type="radio" name="inquiry_type" value="PhD"> PhD Position<br>
+  <input type="radio" name="inquiry_type" value="Postdoc"> Postdoctoral Position<br>
+  <input type="radio" name="inquiry_type" value="Collaboration"> Research Collaboration<br>
+  <input type="radio" name="inquiry_type" value="Software"> Software Support<br>
+  <input type="radio" name="inquiry_type" value="Other"> Other
   <br>
-  <textarea rows="10" cols="150" name="message" placeholder="Type your message here"></textarea>
-  Attach a single file (CV, coverletter). Merge multiple files into one PDF.<br> <input type="hidden" role="uploadcare-uploader" name="myFile" />
+  Message:<br>
+  <textarea rows="10" name="message" placeholder="Type your message here" required></textarea>
   <button type="submit">Send</button>
 </form>
 

@@ -6,33 +6,53 @@ toggle: on
 rank: 3
 ---
 
-<div style="margin-bottom: 50px;">
-    <img class="float-right" width="50%" src="{{ 'projects/wordcloud.png' | prepend: site.images_dir | prepend: site.baseurl }}" />
-</div>
+## DECILE Libraries & Tools
 
-**A Modular Suite of Snakemake-based workflows for analysis of cancer genome data** 
+DECILE provides a comprehensive suite of open-source libraries for data-efficient machine learning.
 
-[LCR-modules](https://lcr-modules.readthedocs.io/en/latest/)
+### **CORDS - Coreset & Data Subset Selection**
 
-**Binary classification of cancer samples from gene expression data**
+Reduce training time from days to hours using state-of-the-art data subset selection algorithms.
 
-[PRPS](https://github.com/ajiangsfu/PRPS)<sup>1</sup>
+[GitHub Repository](https://github.com/decile-team/cords) | [Documentation](https://cords.readthedocs.io/)
 
-**Infering clustered mutations from many cancer genomes**
+**Key Features:**
+- GLISTER, GradMatch, CRAIG, and more
+- PyTorch integration
+- Supports supervised, semi-supervised, and self-supervised learning
 
-[Rainstorm/Doppler](https://github.com/rdmorin/mutation_rainstorm)<sup>2</sup>
+### **DISTIL - Active Learning Library**
 
-**Error suppression and variant calling from duplex sequencing libraries**
+Achieve high model performance with minimal labeled data through intelligent active learning.
 
-[Dellingr](https://github.com/morinlab/Dellingr)<sup>3</sup>
+[GitHub Repository](https://github.com/decile-team/distil) | [Documentation](https://distil.readthedocs.io/)
 
-**Cancer Genomics Toolkit for Galaxy**
+**Key Features:**
+- State-of-the-art active learning strategies
+- Modular design for easy integration
+- Fast PyTorch implementations
 
-[tools_morinlab](https://github.com/morinlab/tools-morinlab)<sup>4</sup>
+### **SubmodLib - Submodular Optimization**
 
-**Read and somatic variant simulator**
+Efficient submodular function optimization for data summarization and selection.
 
-[JARS](https://github.com/morinlab/JARS)
+[GitHub Repository](https://github.com/decile-team/submodlib) | [Documentation](https://submodlib.readthedocs.io/)
+
+**Key Features:**
+- Multiple submodular functions (Facility Location, Graph Cut, etc.)
+- Optimized C++ backend with Python interface
+- Applications in video summarization, document summarization, and more
+
+### **SPEAR - Data Programming**
+
+Reduce labeling costs through programmatic weak supervision and data programming.
+
+[GitHub Repository](https://github.com/decile-team/spear) | [Documentation](https://spear.readthedocs.io/)
+
+**Key Features:**
+- Implements Snorkel, ImplyLoss, and other data programming approaches
+- Semi-supervised learning integration
+- Label aggregation and denoising
 
 **Publications using this software**
 

@@ -384,3 +384,120 @@ h1.post-title {
 .lab-photo img {
     border-radius: 0em;
 }
+
+/**
+ * DECILE Homepage Styles
+ */
+
+.hero-section {
+    text-align: center;
+    padding: 60px 0 40px;
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: $brand-color;
+}
+
+.hero-section h2 {
+    font-size: 28px;
+    font-weight: 300;
+    color: $grey-color;
+    margin-bottom: 20px;
+}
+
+.hero-section .lead {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: $text-color;
+}
+
+.why-decile {
+    margin: 60px 0;
+}
+
+.why-decile h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.why-decile .subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: $grey-color;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature {
+    padding: 20px;
+    border: 1px solid $grey-color-light;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.modules-preview, .research-highlight {
+    margin: 60px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modules-preview h2, .research-highlight h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: $brand-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: darken($brand-color, 10%);
+    color: white;
+}
+
+@include media-query($on-palm) {
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    
+    .hero-section h2 {
+        font-size: 22px;
+    }
+    
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
