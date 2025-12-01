@@ -6,10 +6,6 @@ toggle: on
 rank: 2
 ---
 
-<div style="margin-bottom: 2em;">
-    <img src="{{ 'team/morinlab_pool_2022_crop.png' | prepend: site.images_dir | prepend: site.baseurl }}" />
-</div>
-
 <div class="lab-wrapper">
     <ul class="lab-list">
     <!-- Current PIs -->
