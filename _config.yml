@@ -1,6 +1,6 @@
 # Site settings
-title: DECILE - Data Efficient Learning with Less Data
-lab_name: DECILE
+title: Efficiency Learning - Data Efficient Learning with Less Data
+lab_name: Efficiency Learning
 author: >
   Prateek Chanda, Ganesh Ramakrishnan and Pratik Jawanpuria
 institution: IIT Bombay
@@ -11,8 +11,7 @@ description: >
   training time/cost by an order of magnitude while significantly reducing labeled data requirements.
 baseurl: ""
 url: "https://efficiency-learning.github.io"
-twitter_username: morinryan
-github_username:  morinlab
+github_username: efficiency-learning
 images_dir: "/images/"
 
 # Build settings

@@ -19,19 +19,9 @@ IIT Bombay, Mumbai, India
 Email: [ganesh@cse.iitb.ac.in](mailto:ganesh@cse.iitb.ac.in)  
 Website: [https://www.cse.iitb.ac.in/~ganesh/](https://www.cse.iitb.ac.in/~ganesh/)
 
-**Prof. Rishabh Iyer**  
-Assistant Professor  
-University of Texas at Dallas  
-Email: [rishabh.iyer@utdallas.edu](mailto:rishabh.iyer@utdallas.edu)  
-Website: [https://sites.google.com/view/rishabhiyer](https://sites.google.com/view/rishabhiyer)
-
 ### Connect With Us
 
-- **GitHub:** [https://github.com/decile-team](https://github.com/decile-team)
-- **Medium:** [https://medium.com/@decile-research](https://medium.com/@decile-research)
-- **Twitter:** [https://twitter.com/decile_research](https://twitter.com/decile_research)
-- **YouTube:** [https://www.youtube.com/channel/UCbBsomFm7quu-7Es3X_Ps9g](https://www.youtube.com/channel/UCbBsomFm7quu-7Es3X_Ps9g)
-- **LinkedIn:** [https://www.linkedin.com/in/decile](https://www.linkedin.com/in/decile)
+- **GitHub:** [https://github.com/orgs/efficiency-learning/](https://github.com/orgs/efficiency-learning/)
 
 ## Open Positions
 

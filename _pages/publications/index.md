@@ -8,6 +8,16 @@ rank: 4
 
 DECILE research team members indicated in **boldface**
 
+## 2026
+
+UniPROT: Uniform Prototype Selection via Partial Optimal Transport with Submodular Guarantees
+
+**Prateek Chanda**, Prayas Agrawal, Karthik S. Gurumoorthy, **Ganesh Ramakrishnan**, Bamdev Mishra, Pratik Jawanpuria (AISTATS 2026)
+
+Sculpting Subspaces: Constrained Full Fine-Tuning in LLMs for Continual Learning (https://openreview.net/forum?id=vQcyqsGJDw)
+
+Nikhil Shivakumar Nayak, Krishnateja Killamsetty, Ligong Han, Abhishek Bhandwaldar, **Prateek Chanda**, Kai Xu, Oleg Silkin, Mustafa Eyceoz, Hao Wang, Aldo Pareja, Akash Srivastava (ICLR 2026)
+
 ## 2025
 
 [FairPO: Fair Preference Optimization for Multi-Label Learning](https://neurips.cc/virtual/2025/poster/117454)
@@ -64,7 +74,7 @@ In Proceedings of the Thirty-sixth Conference on Neural Information Processing S
 
 [INGENIOUS: Using Informative Data Subsets for Efficient Pre-Training of Large Language Models](https://aclanthology.org/)
 
-HSVNS Kowndinya Renduchintala, Krishnateja Killamsetty, Sumit Bhatia, Milan Aggarwal, **Ganesh Ramakrishnan**, **Rishabh Iyer**, Balaji Krishnamurthy
+HSVNS Kowndinya Renduchintala, Krishnateja Killamsetty, Sumit Bhatia, Milan Aggarwal, **Ganesh Ramakrishnan**, Rishabh Iyer, Balaji Krishnamurthy
 
 Accepted paper at the 2023 Conference on Empirical Methods in Natural Language Processing, EMNLP 2023, (Long paper, Findings Track)
 
@@ -72,7 +82,7 @@ Accepted paper at the 2023 Conference on Empirical Methods in Natural Language P
 
 [GLISTER: Generalization based Data Subset Selection for Efficient and Robust Learning](https://arxiv.org/pdf/2012.10630.pdf)
 
-Krishnateja Killamsetty, Durga Sivasubramanian, **Ganesh Ramakrishnan**, **Rishabh Iyer**
+Krishnateja Killamsetty, Durga Sivasubramanian, **Ganesh Ramakrishnan**, Rishabh Iyer
 
 35th AAAI Conference on Artificial Intelligence, AAAI 2021
 
@@ -100,7 +110,7 @@ International Conference on Machine Learning (ICML), July 2020
 
 [Learning From Less Data: A Unified Data Subset Selection and Active Learning Framework for Computer Vision](https://www.cse.iitb.ac.in/~ganesh/papers/wacv2019b.pdf)
 
-Vishal Kaushal, **Rishabh Iyer**, Suraj Kothiwade, Rohan Mahadev, Khoshrav Doctor, **Ganesh Ramakrishnan**
+Vishal Kaushal, Rishabh Iyer, Suraj Kothiwade, Rohan Mahadev, Khoshrav Doctor, **Ganesh Ramakrishnan**
 
 7th IEEE Winter Conference on Applications of Computer Vision (WACV), 2019 Hawaii, USA
 
@@ -108,7 +118,7 @@ Vishal Kaushal, **Rishabh Iyer**, Suraj Kothiwade, Rohan Mahadev, Khoshrav Docto
 
 [Submodularity in data subset selection and active learning](http://proceedings.mlr.press/v37/wei15.pdf)
 
-Kai Wei, **Rishabh Iyer**, Jeff Bilmes
+Kai Wei, Rishabh Iyer, Jeff Bilmes
 
 International Conference on Machine Learning (ICML) 2015
 
@@ -131,7 +141,6 @@ Wei, Kai, et al
 For a complete list of DECILE publications, please visit:
 - [GitHub](https://github.com/decile-team)
 - [Google Scholar - Ganesh Ramakrishnan](https://scholar.google.com/citations?user=ganesh)
-- [Google Scholar - Rishabh Iyer](https://scholar.google.com/citations?user=rishabh)
 
 [Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma](https://ashpublications.org/blood/article/141/8/904/486739/Genetic-subgroups-inform-on-pathobiology-in-adult)
 

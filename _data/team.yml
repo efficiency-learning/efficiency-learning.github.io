@@ -12,3 +12,57 @@
     journals including NeurIPS, ICML, AAAI, and ACL.
   photo: team/ganesh.jpg
 
+- name: Prateek Chanda
+  is_pi: False
+  is_current: True
+  position: Ph.D. Student, Dept of CSE, IIT Bombay
+  website: https://prateekchanda21.github.io/
+  bio: >
+    Prateek Chanda is a 4th year Ph.D. student at IIT Bombay's Department of Computer Science and Engineering,
+    advised by Ganesh Ramakrishnan and Pratik Jawanpuria. His research focuses on large-scale efficient machine
+    learning. He is supported by the Prime Minister Research Fellowship (2022–2027) and the Microsoft PhD Award
+    (2025–2026). He has interned twice as a Student Researcher at Google DeepMind India (2023–2024), working on
+    efficient pretraining and knowledge distillation for the Gemini and LaMDA models, and at Microsoft Research India
+    working on generalization in large language models.
+  photo: team/prateek.jpg
+
+- name: Prof. Pratik Jawanpuria
+  is_pi: False
+  is_current: True
+  position: Associate Professor, Center for Machine Intelligence and Data Science (C-MInDS), IIT Bombay
+  website: https://pratikjawanpuria.com/
+  bio: >
+    Pratik Jawanpuria is an Associate Professor at the Centre for Machine Intelligence and Data Science (C-MInDS),
+    IIT Bombay. His research lies at the intersection of machine learning and optimization, with a primary focus on
+    Riemannian optimization, optimal transport, geometric methods for deep learning, and their applications in
+    modern AI systems. Before returning to academia he solved large-scale problems at Microsoft and Amazon.
+    He holds a Ph.D. and B.Tech from IIT Bombay and completed his postdoctoral studies at Saarland University, Germany.
+  photo: team/pratik.jpg
+
+- name: Dr. Bamdev Mishra
+  is_pi: False
+  is_current: True
+  position: Principal Applied Scientist, Microsoft, Hyderabad
+  website: https://bamdevmishra.in/
+  bio: >
+    Bamdev Mishra is a Principal Applied Scientist at Microsoft's Office India Intelligence team in Hyderabad.
+    His research focuses on applied machine learning with an emphasis on Riemannian optimization, optimal transport,
+    and geometric methods for industrial applications. Prior to Microsoft he was in the India Machine Learning team
+    at Amazon. He holds a PhD from the University of Liège, Bachelor's and Master's degrees from IIT Bombay,
+    and spent a year as a visiting Research Associate at the University of Cambridge.
+  photo: team/bamdev.jpg
+
+- name: Dr. Bapi Chatterjee
+  is_pi: False
+  is_current: True
+  position: Assistant Professor, IIIT-Delhi
+  website: https://bapi.github.io/
+  bio: >
+    Bapi Chatterjee is an Assistant Professor at IIIT-Delhi, where he leads the Distributed Computing and Learning
+    Lab (DCLL) and contributes to India's sovereign AI initiative as a consortium member at BharatGen. His research
+    interests include distributed machine learning, federated learning, concurrent data structures, learned index
+    structures, and computational topology. Before joining IIIT-Delhi he was an ISTPlus Postdoctoral Fellow at IST
+    Austria (hosted by Dan Alistarh) and a Research Staff Member at IBM India Research Lab. He holds a PhD from
+    Chalmers University of Technology and M.Tech and M.Sc degrees from IIT Delhi.
+  photo: team/bapi_1.jpg
+
