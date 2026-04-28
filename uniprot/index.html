@@ -1,0 +1,101 @@
+---
+layout: project
+title: "UniPROT: Uniform Prototype Selection via Partial Optimal Transport with Submodular Guarantees"
+permalink: /uniprot/
+description: Project page for UniPROT, accepted as a poster at AISTATS 2026.
+---
+
+<section class="project-shell">
+  <div class="project-nav">
+    <a href="{{ '/' | prepend: site.baseurl }}">Efficiency Learning</a>
+    <span>Project Page</span>
+  </div>
+
+  <section class="project-hero">
+    <div class="project-hero__copy">
+      <p class="project-kicker">AISTATS 2026 Poster</p>
+      <h1>UniPROT: Uniform Prototype Selection via Partial Optimal Transport with Submodular Guarantees</h1>
+      <p class="project-authors">
+        Prateek Chanda, Prayas Agrawal, Karthik S. Gurumoorthy, Ganesh Ramakrishnan, Bamdev Mishra, Pratik Jawanpuria
+      </p>
+      <p class="project-subtitle">
+        A theoretically grounded prototype selection framework that enforces uniform source contributions and improves minority-class representation under imbalance.
+      </p>
+
+      <div class="project-actions">
+        <a class="project-button project-button--primary" href="https://arxiv.org/abs/2604.10952">Paper</a>
+        <a class="project-button" href="https://arxiv.org/pdf/2604.10952">PDF</a>
+        <a class="project-button" href="https://github.com/efficiency-learning/UniPROT">Code</a>
+      </div>
+    </div>
+
+    <div class="project-hero__panel">
+      <div class="project-stat">
+        <span class="project-stat__label">Venue</span>
+        <strong>AISTATS 2026</strong>
+      </div>
+      <div class="project-stat">
+        <span class="project-stat__label">Track</span>
+        <strong>Poster</strong>
+      </div>
+      <div class="project-stat">
+        <span class="project-stat__label">Focus</span>
+        <strong>Prototype Selection</strong>
+      </div>
+      <div class="project-stat">
+        <span class="project-stat__label">Core Idea</span>
+        <strong>Partial OT + Submodularity</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-grid">
+    <article class="project-card project-card--abstract">
+      <h2>Abstract</h2>
+      <p>
+        Selecting prototypical examples from a source distribution to represent a target data distribution is a fundamental problem in machine learning. Existing subset selection methods often rely on implicit importance scores, which can be skewed towards majority classes and lead to low-quality prototypes for minority classes.
+      </p>
+      <p>
+        We present UniPROT, a subset selection framework that minimizes the optimal transport distance between a uniformly weighted prototypical distribution and the target distribution. While this formulation is natural, it yields a cardinality-constrained maximization of a super-additive objective that is generally hard to approximate efficiently.
+      </p>
+      <p>
+        UniPROT resolves this by reformulating the OT marginal constraints to obtain a partial optimal transport based submodular objective. This leads to a greedy algorithm with a <span class="math-inline">(1 - 1 / e)</span> approximation guarantee relative to the original super-additive objective while remaining scalable in practice.
+      </p>
+      <p>
+        Across imbalanced classification benchmarks and large language model finetuning and pretraining settings under domain imbalance, UniPROT consistently improves minority-class representation without sacrificing majority-class accuracy.
+      </p>
+    </article>
+
+    <article class="project-card">
+      <h2>Highlights</h2>
+      <ul class="project-list">
+        <li>Introduces a uniform-weighted prototype selection objective grounded in optimal transport.</li>
+        <li>Transforms an intractable super-additive maximization problem into a submodular one via partial OT constraints.</li>
+        <li>Provides a greedy approximation guarantee of <span class="math-inline">(1 - 1 / e)</span>.</li>
+        <li>Improves representation of minority classes in imbalanced settings.</li>
+        <li>Demonstrates gains for both classical benchmarks and LLM data selection regimes.</li>
+      </ul>
+    </article>
+
+    <article class="project-card">
+      <h2>Links</h2>
+      <ul class="project-links">
+        <li><a href="https://arxiv.org/abs/2604.10952">arXiv abstract</a></li>
+        <li><a href="https://arxiv.org/pdf/2604.10952">Paper PDF</a></li>
+        <li><a href="https://doi.org/10.48550/arXiv.2604.10952">DOI</a></li>
+        <li><a href="https://github.com/efficiency-learning/UniPROT">Code repository</a></li>
+      </ul>
+    </article>
+
+    <article class="project-card">
+      <h2>BibTeX</h2>
+      <pre class="project-bibtex"><code>@article{chanda2026uniprot,
+  title={UniPROT: Uniform Prototype Selection via Partial Optimal Transport with Submodular Guarantees},
+  author={Chanda, Prateek and Agrawal, Prayas and Gurumoorthy, Karthik S. and Ramakrishnan, Ganesh and Mishra, Bamdev and Jawanpuria, Pratik},
+  journal={arXiv preprint arXiv:2604.10952},
+  year={2026},
+  url={https://arxiv.org/abs/2604.10952}
+}</code></pre>
+    </article>
+  </section>
+</section>

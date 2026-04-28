@@ -55,3 +55,276 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap");
+
+.project-page {
+    background:
+        radial-gradient(circle at top left, rgba(255, 206, 115, 0.45), transparent 32%),
+        radial-gradient(circle at top right, rgba(40, 123, 255, 0.24), transparent 28%),
+        linear-gradient(180deg, #f5f1e8 0%, #fffdf9 42%, #eef4ff 100%);
+    color: #16202a;
+    font-family: "Source Serif 4", Georgia, serif;
+    min-height: 100vh;
+}
+
+.project-page a {
+    color: #0e5bd7;
+}
+
+.project-shell {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 32px 24px 72px;
+}
+
+.project-nav {
+    align-items: center;
+    display: flex;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 14px;
+    gap: 12px;
+    justify-content: space-between;
+    letter-spacing: 0.08em;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+
+.project-nav a {
+    color: #16202a;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.project-nav span {
+    color: #5a6775;
+}
+
+.project-hero {
+    display: grid;
+    gap: 28px;
+    grid-template-columns: minmax(0, 2.2fr) minmax(280px, 1fr);
+    margin-bottom: 28px;
+}
+
+.project-hero__copy,
+.project-hero__panel,
+.project-card {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(22, 32, 42, 0.08);
+    border-radius: 28px;
+    box-shadow: 0 18px 60px rgba(22, 32, 42, 0.08);
+}
+
+.project-hero__copy {
+    padding: 40px;
+}
+
+.project-kicker,
+.project-card h2,
+.project-stat__label {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.project-kicker {
+    color: #a14f00;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.project-hero h1 {
+    color: #16202a;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 0.94;
+    margin: 0 0 18px;
+}
+
+.project-authors,
+.project-subtitle {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.project-authors {
+    color: #233140;
+}
+
+.project-subtitle {
+    color: #41505f;
+    margin-bottom: 28px;
+    max-width: 46rem;
+}
+
+.project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.project-button {
+    border: 1px solid rgba(14, 91, 215, 0.18);
+    border-radius: 999px;
+    color: #0e5bd7;
+    display: inline-flex;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 18px;
+    text-decoration: none;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.project-button:hover,
+.project-button:focus {
+    box-shadow: 0 12px 24px rgba(14, 91, 215, 0.16);
+    transform: translateY(-1px);
+}
+
+.project-button--primary {
+    background: #16202a;
+    border-color: #16202a;
+    color: #fffdf9;
+}
+
+.project-hero__panel {
+    align-content: start;
+    display: grid;
+    gap: 14px;
+    padding: 24px;
+}
+
+.project-stat {
+    background: rgba(245, 241, 232, 0.74);
+    border-radius: 20px;
+    padding: 18px;
+}
+
+.project-stat__label {
+    color: #6d7680;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.project-stat strong {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+.project-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
+}
+
+.project-card {
+    padding: 28px;
+}
+
+.project-card h2 {
+    color: #16202a;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    margin: 0 0 18px;
+}
+
+.project-card p,
+.project-list li,
+.project-links li {
+    color: #334252;
+    font-size: 19px;
+    line-height: 1.72;
+}
+
+.project-card--abstract {
+    grid-row: span 2;
+}
+
+.project-list,
+.project-links {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.project-links a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+}
+
+.project-bibtex {
+    background: #16202a;
+    border-radius: 20px;
+    color: #fff4d8;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    overflow-x: auto;
+    padding: 18px;
+}
+
+.math-inline {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    .project-hero,
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card--abstract {
+        grid-row: auto;
+    }
+
+    .project-hero h1 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .project-shell {
+        padding: 20px 16px 56px;
+    }
+
+    .project-nav {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .project-hero__copy,
+    .project-card,
+    .project-hero__panel {
+        border-radius: 22px;
+    }
+
+    .project-hero__copy {
+        padding: 28px 22px;
+    }
+
+    .project-hero h1 {
+        font-size: 35px;
+    }
+
+    .project-authors,
+    .project-subtitle,
+    .project-card p,
+    .project-list li,
+    .project-links li {
+        font-size: 17px;
+    }
+}
